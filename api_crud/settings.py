@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     'django_filters',
     'authentication',
     'movies',
+    'dj_rest_auth',
+    'rest_framework.authtoken',
 ]
 
 SITE_ID = 1

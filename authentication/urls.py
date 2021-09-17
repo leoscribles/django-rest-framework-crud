@@ -7,3 +7,7 @@ urlpatterns = [
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('register/', RegisterView.as_view(), name='auth_register'),
 ]
+
+# http://127.0.0.1:8000/api/v1/auth/register/
+# http://127.0.0.1:8000/api/v1/auth/token/refresh/
+# http://127.0.0.1:8000/api/v1/auth/token/
